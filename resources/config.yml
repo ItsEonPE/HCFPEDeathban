@@ -1,0 +1,5 @@
+---
+# Death Ban Config
+# Time is based in second
+time: "900"
+...
