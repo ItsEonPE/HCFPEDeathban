@@ -1,6 +1,6 @@
 name: DeathBan
 version: 1.0.0
-api: ["1.0.0","2.0.0"]
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8]
 author: ItsEon
 description: DeathBan
 main: ItsEon\DeathBan\Main
