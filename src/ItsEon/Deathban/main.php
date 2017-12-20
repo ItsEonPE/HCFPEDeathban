@@ -2,9 +2,9 @@
 namespace ItsEon\DeathBan;
 
 use pocketmine\event\Listener;
-use pocketmine\event\player;
+use pocketmine\event\Player;
 use pocketmine\event\player\PlayerDeathEvent;
-use pocketmine\permission;
+use pocketmine\Permission;
 use pocketmine\plugin\PluginBase;
 use pocketmine\scheduler\PluginTask;
 use pocketmine\utils\Config;
@@ -139,7 +139,7 @@ class unBanTask extends PluginTask
 		$this->main = $main;
 	}
 
-	public function onRun($tick)
+	public function onRun (int)($tick)
 	{
 		$this->main->doTick();
 	}
