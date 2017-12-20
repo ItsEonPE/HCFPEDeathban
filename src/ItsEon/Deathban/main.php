@@ -2,12 +2,19 @@
 namespace ItsEon\DeathBan;
 
 use pocketmine\event\Listener;
-use pocketmine\event\player;
+use pocketmine\event\Player;
+
 use pocketmine\event\player\PlayerDeathEvent;
-use pocketmine\permission;
+
+use pocketmine\Permission;
+
 use pocketmine\plugin\PluginBase;
 use pocketmine\scheduler\PluginTask;
+
 use pocketmine\utils\Config;
+
+use pocketmine\Player;
+use pocketmine\Server;
 
 class Main extends PluginBase implements Listener
 {
